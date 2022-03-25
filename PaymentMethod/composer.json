@@ -1,0 +1,22 @@
+{
+    "name": "beverage/module-paymentmethod",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Beverage\\PaymentMethod\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

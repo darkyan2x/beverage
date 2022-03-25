@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceContainer name="content">
+			<block as="paymentmethod" class="Beverage\PaymentMethod\Block\PaymentMethod" name="paymentmethod" template="Beverage_PaymentMethod::paymentmethod.phtml"/>
+			<!-- <block class="Beverage\PaymentMethod\Block\Index\Index" name="index.index" template="Beverage_PaymentMethod::index/index.phtml"/> -->
+		</referenceContainer>
+	</body>
+</page>
